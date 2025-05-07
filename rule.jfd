@@ -1,0 +1,112 @@
+JFDML JFormDesigner: "6.0.0.0.84" Java: "1.8.0_112" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"$sizePolicy": 1
+			"defaultCloseOperation": 3
+			"title": "Snake & Ladder: Pokémon Edition"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "RULES:"
+				"font": new java.awt.Font( "HelveticaNeueLT Std", 0, 36 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 135
+				"height": 70
+				"x": 375
+				"y": 35
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Navigate one's pokemon from the start square 1"
+				"font": &Font0 new java.awt.Font( "HelveticaNeueLT Std", 0, 32 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 785
+				"height": 45
+				"x": 85
+				"y": 115
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "to the finish square 100 by rolling the dice turn by turn."
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 855
+				"height": 50
+				"x": 35
+				"y": 155
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Land on a LADDER and go UP"
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 505
+				"height": 45
+				"x": 235
+				"y": 225
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Land on a SNAKE and go DOWN"
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 530
+				"height": 45
+				"x": 225
+				"y": 270
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "1st pokemon to reach square 100 wins the game!"
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 780
+				"height": 45
+				"x": 75
+				"y": 340
+			} )
+			add( new FormComponent( "javax.swing.JProgressBar" ) {
+				name: "progressBar1"
+				"stringPainted": true
+				"foreground": new java.awt.Color( 246, 207, 87, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 825
+				"height": 55
+				"x": 50
+				"y": 460
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblpic"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\admin\\Desktop\\Snake and lador\\sounding\\69.gif" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 65
+				"x": 40
+				"y": 395
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblbg"
+				"text": "text"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\admin\\Desktop\\Snake and lador\\backgrount.png" )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 930
+				"height": 565
+				"x": 0
+				"y": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 125, 65 )
+			"size": new java.awt.Dimension( 930, 595 )
+		} )
+	}
+}
