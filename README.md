@@ -19,6 +19,7 @@ OOP (Classes for Board, Player, Game, Dice, etc.)
 
 CLI (Command Line Interface)
 
+📌 Run the main_game.java to start
 
 ****First to reach tile 100 wins the game!*****
 
